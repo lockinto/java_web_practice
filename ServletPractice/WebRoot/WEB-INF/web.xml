@@ -13,10 +13,37 @@
   	<servlet-name>AServlet</servlet-name>
   	<servlet-class>com.into.AServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>BServlet</servlet-name>
+    <servlet-class>com.into.BServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CServlet</servlet-name>
+    <servlet-class>com.into.CServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DServlet</servlet-name>
+    <servlet-class>com.into.DServlet</servlet-class>
+  </servlet>
+
+
+
   
   <servlet-mapping>
   	<servlet-name>AServlet</servlet-name>
   	<url-pattern>/AServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BServlet</servlet-name>
+    <url-pattern>/BServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CServlet</servlet-name>
+    <url-pattern>/CServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DServlet</servlet-name>
+    <url-pattern>/DServlet</url-pattern>
   </servlet-mapping>
   
   <context-param>

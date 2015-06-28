@@ -25,6 +25,21 @@
     <servlet-name>DServlet</servlet-name>
     <servlet-class>com.into.DServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>EServlet</servlet-name>
+    <servlet-class>com.into.EServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>FServlet</servlet-name>
+    <servlet-class>com.into.FServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GServlet</servlet-name>
+    <servlet-class>com.into.GServlet</servlet-class>
+  </servlet>
+
+
+
 
 
 
@@ -44,6 +59,18 @@
   <servlet-mapping>
     <servlet-name>DServlet</servlet-name>
     <url-pattern>/DServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EServlet</servlet-name>
+    <url-pattern>/EServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FServlet</servlet-name>
+    <url-pattern>/FServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GServlet</servlet-name>
+    <url-pattern>/GServlet</url-pattern>
   </servlet-mapping>
   
   <context-param>

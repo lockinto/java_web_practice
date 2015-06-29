@@ -29,10 +29,9 @@ public class CServlet extends HttpServlet {
 		if (count == null)
 			application.setAttribute("count",1);
 		else
-			application.setAttribute("count",count+1);
-		
+			application.setAttribute("count",count + 1);
 		PrintWriter pw = response.getWriter();
-		pw.print("<h1>" + "ÕâÊÇÄúµÚ" + count + "´Î·ÃÎÊ±¾Õ¾<h1>");
+		pw.print("<h1>" + "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" + count + "ï¿½Î·ï¿½ï¿½Ê±ï¿½Õ¾<h1>");
 	}
 
 }
